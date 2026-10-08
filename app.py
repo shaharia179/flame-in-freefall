@@ -50,7 +50,8 @@ st.markdown('<div class="hero"><h1>Flame in Freefall</h1>'
 ext_rate = (df.test_end == "Extinction").mean()
 kpis = [(len(df), "real ISS tests (FLEX)"), (f"{ext_rate:.0%}", "ended in extinction"),
         (f"{df.O2.min():.2f} to {df.O2.max():.2f}", "O₂ mole fraction tested"),
-        (f"{df.CO2.max():.2f}", "highest CO₂ fraction tested"), ("0.90", "extinction AUC (5-fold CV)")]
+        (f"{df.CO2.max():.2f}", "highest CO₂ fraction tested"),
+        ("0.85", "extinction AUC (grouped CV)")]
 for col, (v, l) in zip(st.columns(5), kpis):
     col.markdown(f'<div class="kpi"><b>{v}</b><span>{l}</span></div>', unsafe_allow_html=True)
 st.write("")
@@ -61,18 +62,26 @@ with left:
     st.markdown("##### Conditions")
     fuel = st.radio("Fuel", ["Methanol", "Heptane"], horizontal=True)
     o2 = st.slider("O₂ mole fraction", 0.12, 0.34, 0.21, 0.01)
-    co2 = st.slider("CO₂ mole fraction", 0.0, 0.70, 0.0, 0.01)
+    gas = st.radio("Added gas (CO₂ and He never appear together in the real tests)",
+                   ["CO₂", "He"], horizontal=True)
+    if gas == "CO₂":
+        co2 = st.slider("CO₂ mole fraction", 0.0, 0.70, 0.0, 0.01, key="co2_slider")
+        he = 0.0
+    else:
+        he = st.slider("He mole fraction", 0.0, 0.45, 0.0, 0.01, key="he_slider")
+        co2 = 0.0
     p = st.slider("Pressure (mmHg)", 526, 2320, 760, 10)
     d0 = st.slider("Droplet diameter (mm)", 1.1, 4.7, 3.0, 0.1)
 
-n2 = round(1.0 - o2 - co2, 3)
+n2 = round(1.0 - o2 - co2 - he, 3)
 if n2 < 0:
-    st.error("O₂ + CO₂ cannot exceed 1.0. Lower one of them.")
+    st.error("O₂ + added gas cannot exceed 1.0. Lower one of them.")
     st.stop()
-x = pd.DataFrame([dict(fuel=fuel, pressure_mmHg=p, O2=o2, CO2=co2, N2=n2, D0_mm=d0)])
+x = pd.DataFrame([dict(fuel=fuel, pressure_mmHg=p, O2=o2, CO2=co2, He=he, N2=n2, D0_mm=d0)])
 pe = float(clf.predict_proba(x)[0, 1])
 br = float(reg.predict(x)[0])
-near = float(np.sqrt(((df.O2 - o2) / .22) ** 2 + ((df.CO2 - co2) / .7) ** 2).min())
+near = float(np.sqrt(((df.O2 - o2) / .22) ** 2 + ((df.CO2 - co2) / .7) ** 2
+                     + ((df.He - he) / .45) ** 2).min())
 
 FLAME = """<body style="margin:0;background:transparent"><canvas id="c" style="width:100%;height:440px;border-radius:20px;background:#03050b"></canvas>
 <script>
@@ -119,40 +128,53 @@ with right:
                 f'{"Extinction more likely than not." if pe >= .5 else "The model leans toward the flame surviving."}</div>',
                 unsafe_allow_html=True)
     if near > .12:
-        st.warning("No real test is close to this O₂/CO₂ mix. Treat the estimate as extrapolation.")
-    st.caption("Small dataset. Not a safety guarantee.")
+        st.warning("No real test is close to this gas mix. Treat the estimate as extrapolation.")
+    st.caption("Small dataset. Not a safety guarantee. In grouped cross-validation the model wrongly predicted "
+               "extinction for 33 of 90 tests that did not go out.")
 
 # ---------------- Tabs ----------------
 t1, t2, t3, t4, t5, t6 = st.tabs(["Survival map", "Real data vs model", "What the model learned",
                                   "Dataset dashboard", "Analytics", "Safety insights"])
 
 with t1:
+    amax = 0.70 if gas == "CO₂" else 0.45
+    ycol = "CO2" if gas == "CO₂" else "He"
+    sub = df[df.He == 0] if gas == "CO₂" else df[df.CO2 == 0]
+    yin = co2 if gas == "CO₂" else he
+
+
     @st.cache_data
-    def grid(fuel, p, d0):
+    def grid(fuel, p, d0, gas):
         o = np.round(np.arange(0.12, 0.3401, 0.01), 2)
-        c = np.round(np.arange(0.0, 0.7001, 0.02), 2)
+        c = np.round(np.arange(0.0, amax + 1e-4, 0.02), 2)
         O, C = np.meshgrid(o, c)
-        g = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=p, O2=O.ravel(), CO2=C.ravel(), D0_mm=d0))
-        g["N2"] = 1 - g.O2 - g.CO2
+        g = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=p, O2=O.ravel(),
+                              CO2=C.ravel() if gas == "CO₂" else 0.0,
+                              He=C.ravel() if gas == "He" else 0.0, D0_mm=d0))
+        g["N2"] = 1 - g.O2 - g.CO2 - g.He
         z = clf.predict_proba(g)[:, 1].reshape(O.shape)
-        dist = np.sqrt(((O[..., None] - df.O2.values) / .22) ** 2 + ((C[..., None] - df.CO2.values) / .7) ** 2).min(-1)
+        dist = np.sqrt(((O[..., None] - sub.O2.values) / .22) ** 2
+                       + ((C[..., None] - sub[ycol].values) / amax) ** 2).min(-1)
         z[(g.N2.values.reshape(O.shape) < 0) | (dist > .12)] = np.nan
         return o, c, z
 
-    o, c, z = grid(fuel, p, d0)
+
+    o, c, z = grid(fuel, p, d0, gas)
     fig = go.Figure(go.Heatmap(x=o, y=c, z=z, zmin=0, zmax=1, hoverongaps=False,
                                colorscale=[[0, "#ff4d2e"], [.5, "#ffd166"], [1, "#2ec4ff"]],
                                colorbar=dict(title="P(extinction)")))
     for k, sym in [("Extinction", "circle"), ("Disruption", "square"), ("Completion", "diamond")]:
-        d = df[(df.fuel == fuel) & (df.test_end == k)]
-        fig.add_trace(go.Scatter(x=d.O2, y=d.CO2, mode="markers", name=f"real: {k}",
+        d = sub[(sub.fuel == fuel) & (sub.test_end == k)]
+        fig.add_trace(go.Scatter(x=d.O2, y=d[ycol], mode="markers", name=f"real: {k}",
                                  marker=dict(symbol=sym, size=9, color="white", line=dict(width=1.2, color="black"))))
-    fig.add_trace(go.Scatter(x=[o2], y=[co2], mode="markers", name="your input",
+    fig.add_trace(go.Scatter(x=[o2], y=[yin], mode="markers", name="your input",
                              marker=dict(symbol="star", size=20, color="#fff", line=dict(width=2, color="#ff7a1a"))))
-    fig.update_layout(xaxis_title="O₂ mole fraction", yaxis_title="CO₂ mole fraction")
+    fig.update_layout(xaxis_title="O₂ mole fraction", yaxis_title=f"{gas} mole fraction")
     st.plotly_chart(style(fig, 470))
-    st.caption(f"Model estimate for {fuel}, {p} mmHg, {d0} mm droplet. Red: flame tends to survive. Blue: tends to go out. "
-               "Cells far from every real test are hidden. White markers are the real FLEX tests for this fuel.")
+    st.caption(f"Model estimate for {fuel}, {p} mmHg, {d0} mm droplet, with {gas} as the added gas (the other is 0). "
+               "Red: flame tends to survive. Blue: tends to go out. "
+               "Cells far from every real test are hidden. White markers are the real FLEX tests for this fuel "
+               "and this added gas (plus tests with neither).")
 
 with t2:
     fig = go.Figure()
@@ -160,8 +182,8 @@ with t2:
         d = df[df.fuel == f_]
         fig.add_trace(go.Scatter(x=d.O2, y=d.burn_rate_mm2s, mode="markers", name=f"{f_} (real)",
                                  marker=dict(color=col, size=8, opacity=.7)))
-    sw = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=p, O2=np.linspace(.12, .34, 40), CO2=co2, D0_mm=d0))
-    sw["N2"] = 1 - sw.O2 - sw.CO2
+    sw = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=p, O2=np.linspace(.12, .34, 40), CO2=co2, He=he, D0_mm=d0))
+    sw["N2"] = 1 - sw.O2 - sw.CO2 - sw.He
     sw = sw[sw.N2 >= 0]
     fig.add_trace(go.Scatter(x=sw.O2, y=reg.predict(sw), mode="lines", name="model (your settings)",
                              line=dict(color="#fff", width=3)))
@@ -169,7 +191,7 @@ with t2:
     st.plotly_chart(style(fig, 430))
     out = pd.crosstab(df.fuel, df.test_end)
     st.dataframe(out)
-    with st.expander("All 170 tests"):
+    with st.expander(f"All {len(df)} tests"):
         st.dataframe(df.drop(columns=["identifier"]))
 
 with t3:
@@ -183,10 +205,12 @@ with t3:
 
 **Read this first**
 - More O₂ raises the burning rate and lowers the chance of extinction. More CO₂ does the opposite.
-- SHAP shows what the model learned, not proof of cause. O₂, CO₂ and N₂ are tied together (they sum to 1).
+- He raises the predicted burning rate. Its effect on extinction is unclear (the model's answer for a single input can differ from the summary plot), and only 51 tests contain He, so treat it cautiously.
+- SHAP shows what the model learned, not proof of cause. O₂, CO₂, He and N₂ are tied together (they sum to 1).
 - Only liquid droplets (methanol, n-heptane). Not solid materials, not cabin fires.
 - Some disruptions may come from fuel-needle contamination (NASA/TP-2015-216046, Sec. 5.2).
-- Cross-validated: extinction AUC about 0.90, burn-rate R² about 0.63. About 170 tests, so numbers are approximate.
+- Extinction model, AUC: 0.89 with random 5-fold CV, 0.85 with grouped CV (same atmosphere kept together). Burn-rate R²: 0.68 random, 0.66 grouped. 276 tests, so numbers are approximate.
+- The safety-critical error is the false positive: in grouped CV the model said "extinguishes" for 33 of 90 tests that did not go out.
 
 </div>
 """, unsafe_allow_html=True)
@@ -264,12 +288,12 @@ with t5:
         st.caption("Average of the real tests in each pressure group. Pressure was tested at a few fixed levels, "
                    "so there are gaps in between.")
     with a2:
-        cc = ["pressure_mmHg", "O2", "N2", "CO2", "D0_mm", "burn_rate_mm2s", "burn_time_s"]
+        cc = ["pressure_mmHg", "O2", "N2", "CO2", "He", "D0_mm", "burn_rate_mm2s", "burn_time_s"]
         cm = df[cc].corr()
         fig = go.Figure(go.Heatmap(z=cm.values, x=cc, y=cc, zmin=-1, zmax=1, colorscale="RdBu",
                                    text=cm.round(2).values, texttemplate="%{text}"))
         st.plotly_chart(style(fig, 460))
-        st.caption("Correlation is not cause. O₂, N₂ and CO₂ move together because they sum to 1.")
+        st.caption("Correlation is not cause. O₂, N₂, CO₂ and He move together because they sum to 1.")
     with a3:
         ob = pd.cut(df.O2, [0, .15, .21, .5], labels=["O₂ 0.15 or less", "above 0.15 to 0.21", "above 0.21"])
         fig = go.Figure()
@@ -288,51 +312,57 @@ with t5:
         st.plotly_chart(style(fig, 380))
     with a5:
         @st.cache_data
-        def surf(fuel, co2, d0):
+        def surf(fuel, co2, he, d0):
             o = np.linspace(.12, .34, 23)
             pr = np.linspace(526, 2320, 40)
             O, Pm = np.meshgrid(o, pr)
-            g = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=Pm.ravel(), O2=O.ravel(), CO2=co2, D0_mm=d0))
-            g["N2"] = 1 - g.O2 - co2
+            g = pd.DataFrame(dict(fuel=fuel, pressure_mmHg=Pm.ravel(), O2=O.ravel(), CO2=co2, He=he, D0_mm=d0))
+            g["N2"] = 1 - g.O2 - co2 - he
             z = reg.predict(g).reshape(O.shape)
             dd = df.dropna(subset=["pressure_mmHg"])
             dist = np.sqrt(((O[..., None] - dd.O2.values) / .22) ** 2
                            + ((Pm[..., None] - dd.pressure_mmHg.values) / 1800) ** 2
-                           + ((co2 - dd.CO2.values) / .7) ** 2).min(-1)
+                           + ((co2 - dd.CO2.values) / .7) ** 2
+                           + ((he - dd.He.values) / .45) ** 2).min(-1)
             z[(g.N2.values.reshape(O.shape) < 0) | (dist > .15)] = np.nan
             return o, pr, z
 
-        o_, pr_, z_ = surf(fuel, co2, d0)
+
+        o_, pr_, z_ = surf(fuel, co2, he, d0)
         fig = go.Figure(go.Surface(x=o_, y=pr_, z=z_, colorscale="Inferno"))
         fig.update_layout(scene=dict(xaxis_title="O₂", yaxis_title="Pressure (mmHg)", zaxis_title="Burn rate"))
         st.plotly_chart(style(fig, 480))
-        st.caption(f"Model-estimated burning rate for {fuel}, CO₂ {co2:.2f}, {d0} mm droplet. "
+        st.caption(f"Model-estimated burning rate for {fuel}, CO₂ {co2:.2f}, He {he:.2f}, {d0} mm droplet. "
                    "Areas far from any real test are left blank.")
 
 with t6:
     sh = lambda m: (m.test_end == "Extinction").mean()
-    hi, lo = df[df.CO2 >= .3], df[df.CO2 == 0]
-    me, he = df[df.fuel == "Methanol"], df[df.fuel == "Heptane"]
+    hi = df[df.CO2 >= .3]
+    lo = df[(df.CO2 == 0) & (df.He == 0)]
+    hh = df[df.He > 0]
+    me, he_ = df[df.fuel == "Methanol"], df[df.fuel == "Heptane"]
     st.markdown("##### Key findings, computed live from the real tests")
     st.markdown(f"""
-- With CO₂ at 0.30 or more, **{sh(hi):.0%}** of {len(hi)} tests went out, versus **{sh(lo):.0%}** of {len(lo)} tests with no CO₂.
+- With CO₂ at 0.30 or more, **{sh(hi):.0%}** of {len(hi)} tests went out, versus **{sh(lo):.0%}** of {len(lo)} tests with no CO₂ and no He.
+- In the {len(hh)} tests that contained He, **{sh(hh):.0%}** went out.
 - O₂ and burning rate move together (correlation **{df.O2.corr(df.burn_rate_mm2s):.2f}**).
-- Methanol went out in **{sh(me):.0%}** of tests, heptane in **{sh(he):.0%}**.
+- Methanol went out in **{sh(me):.0%}** of tests, heptane in **{sh(he_):.0%}**.
 """)
     st.markdown("##### What this suggests for safety (droplet tests only)")
     st.markdown("""
-- CO₂ dilution went with more extinctions here. It is a lead worth studying, not a ready-made suppression rule.
+- CO₂ or He dilution went with more extinctions here. It is a lead worth studying, not a ready-made suppression rule.
 - Oxygen-richer air raised the burning rate, so enriched atmospheres are the riskier direction.
 - Heptane survived more often than methanol, so the fuel matters.
+- The model can wrongly say a flame will go out. That is the dangerous mistake, so never rely on it alone.
 - None of this covers solid materials or real spacecraft fires.
 """)
     rep = f"""# Flame in Freefall report
-Fuel: {fuel}; O2 {o2:.2f}; CO2 {co2:.2f}; N2 {n2:.2f}; pressure {p} mmHg; droplet {d0} mm
+Fuel: {fuel}; O2 {o2:.2f}; CO2 {co2:.2f}; He {he:.2f}; N2 {n2:.2f}; pressure {p} mmHg; droplet {d0} mm
 Estimated chance the flame goes out: {pe:.0%}
 Estimated burning-rate constant: {br:.2f} mm2/s
 Closeness to a real test (0 = identical): {near:.2f}{' (extrapolation)' if near > .12 else ''}
-Data: NASA FLEX, NASA/TP-2015-216046, Table IX ({len(df)} tests). Cross-validated extinction AUC about 0.90, burn-rate R2 about 0.63.
-Limits: liquid droplets only, small dataset, not a safety guarantee.
+Data: NASA FLEX, NASA/TP-2015-216046, Table IX ({len(df)} tests). Extinction AUC 0.89 (random 5-fold) and 0.85 (grouped 5-fold); burn-rate R2 0.68 (random) and 0.66 (grouped).
+Limits: liquid droplets only, small dataset, the model wrongly predicted extinction for 33 of 90 non-extinction tests in grouped CV, not a safety guarantee.
 """
     st.download_button("Download report for the current settings", rep, file_name="flame_report.md")
     with st.expander("Data fields and missing values"):

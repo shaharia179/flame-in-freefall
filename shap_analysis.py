@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 df = pd.read_csv("data/flex_clean.csv")
-FEATS = ["fuel", "pressure_mmHg", "O2", "CO2", "N2", "D0_mm"]
+FEATS = ["fuel", "pressure_mmHg", "O2", "CO2", "He", "N2", "D0_mm"]
 X = df[FEATS]
 
 Path("out").mkdir(exist_ok=True)
