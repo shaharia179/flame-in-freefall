@@ -1,0 +1,448 @@
+
+
+===== PAGE 20 =====
+TABLE VI.—FLEX TEST MATRIX FOR METHANOL TESTS CONDUCTED IN 0.70-atm
+CARBON-DIOXIDE-DILUTED AMBIENT ENVIRONMENTS
+Test Date Initial droplet diameter, Fiber Pressure, Mole fraction of Mole fraction of Mole fraction of
+D0, P, oxygen carbon dioxide nitrogen
+mm atm
+088 May 5, 2010 3.08 No 0.71 0.250 0.150 0.600
+089 May 5, 2010 3.79 No .71 .250 .150 .600
+090 May 6, 2010 3.65 Yes .71 .250 .150 .600
+091 May 5, 2010 3.59 Yes .71 .250 .150 .600
+097 June 16, 2010 4.29 No .70 .240 .200 .560
+098 June 21, 2010 3.67 No .71 .230 .250 .520
+099 June 21, 2010 4.34 No .70 .230 .250 .520
+104 June 16, 2010 3.66 No .70 .240 .200 .560
+105 June 16, 2010 4.35 Yes .70 .240 .200 .560
+106 June 21, 2010 3.16 Yes .71 .230 .250 .520
+107 June 16, 2010 3.25 Yes .70 .240 .200 .560
+108 June 21, 2010 3.82 Yes .71 .230 .250 .520
+109 Aug. 31, 2010 3.62 No .71 .211 .299 .490
+110 Aug. 31, 2010 2.88 No .71 .211 .299 .490
+111 Aug. 31, 2010 3.38 Yes .71 .211 .299 .490
+112 Sept. 1, 2010 4.02 Yes .70 .211 .299 .490
+113 Sept. 1, 2010 4.26 No .70 .200 .350 .450
+114 Sept. 1, 2010 3.28 No .70 .200 .350 .450
+115 Sept. 1, 2010 4.03 Yes .71 .200 .350 .450
+116 Sept. 1, 2010 3.15 Yes .71 .200 .350 .450
+121 Sept. 8, 2010 4.33 No .69 .180 .400 .420
+122 Sept. 8, 2010 3.57 No .70 .180 .400 .420
+123 Sept. 8, 2010 4.13 Yes .70 .180 .400 .420
+124 Sept. 8, 2010 3.57 Yes .70 .180 .400 .420
+125 Sept. 13, 2010 3.70 No .71 .170 .450 .380
+126 Sept. 13, 2010 2.89 No .71 .170 .450 .380
+127 Sept. 13, 2010 3.20 Yes .71 .170 .450 .380
+128 Sept. 13, 2010 2.93 Yes .71 .170 .450 .380
+140 Nov. 4, 2010 4.05 No .70 .146 .500 .354
+141 Nov. 4, 2010 2.94 No .70 .146 .500 .354
+142 Nov. 4, 2010 1.88 No .70 .146 .500 .354
+143 Nov. 4, 2010 2.33 No .70 .146 .500 .354
+147 Sept. 13, 2010 3.13 No .71 .170 .450 .380
+NASA/TP—2015-216046 14
+
+===== PAGE 21 =====
+TABLE VII.—FLEX TEST MATRIX FOR HEPTANE TESTS CONDUCTED IN
+0.70-atm CARBON-DIOXIDE-DILUTED AMBIENT ENVIRONMENTS
+Test Date Initial droplet diameter, Fiber Pressure, Mole fraction of Mole fraction of Mole fraction of
+D0, P, oxygen carbon dioxide nitrogen
+mm atm
+092 June 14, 2010 3.46 No 0.71 0.250 0.150 0.600
+093 June 15, 2010 2.61 Yes .71 .250 .150 .600
+094 June 15, 2010 3.59 No .70 .240 .200 .560
+095 June 15, 2010 3.77 Yes .70 .240 .200 .560
+096 June 15, 2010 2.30 Yes .70 .240 .200 .560
+100 June 29, 2010 4.27 No .71 .230 .250 .520
+101 June 29, 2010 3.87 Yes .71 .230 .250 .520
+102 June 29, 2010 3.69 No .70 .210 .300 .490
+103 June 29, 2010 4.05 Yes .70 .210 .300 .490
+117 Sept. 6, 2010 3.89 No .70 .200 .350 .450
+118 Sept. 6, 2010 3.11 Yes .70 .200 .350 .450
+119 Sept. 7, 2010 2.68 Yes .70 .180 .400 .420
+120 Sept. 7, 2010 2.53 Yes .70 .180 .400 .420
+129 Sept. 17, 2010 3.43 No .71 .170 .450 .380
+130 Sept. 17, 2010 3.02 Yes .71 .170 .450 .380
+TABLE VIII.—FLEX TEST MATRIX FOR TESTS CONDUCTED IN 1.0-atm
+CARBON-DIOXIDE-DILUTED AMBIENT ENVIRONMENTS
+[Droplets not supported by a fiber.]
+Test Date Fuel Initial droplet diameter, Pressure, Mole fraction of Mole fraction of Mole fraction of
+D0, P, oxygen carbon dioxide nitrogen
+mm atm
+148 Nov. 18, 2010 Heptane 2.66 1.01 0.200 0.050 0.750
+149 Nov. 18, 2010 Heptane 2.37 1.01 .200 .050 .750
+150 Nov. 18, 2010 Heptane 3.26 1.01 .200 .050 .750
+151 Dec. 8, 2010 Methanol 3.90 1.00 .180 .150 .670
+152 Dec. 8, 2010 Methanol 3.41 1.01 .180 .150 .670
+153 Dec. 8, 2010 Methanol 2.80 1.01 .180 .150 .670
+154 Dec. 9, 2010 Heptane 3.76 1.00 .180 .150 .670
+155 Dec. 9, 2010 Heptane 2.84 1.01 .180 .150 .670
+156 Dec. 9, 2010 Heptane 2.30 1.01 .180 .150 .670
+157 Dec. 9, 2010 Heptane 2.02 1.01 .180 .150 .670
+158 Dec. 14, 2010 Methanol 4.31 1.00 .160 .250 .590
+159 Dec. 14, 2010 Methanol 3.78 1.01 .160 .250 .590
+160 Dec. 14, 2010 Methanol 2.71 1.01 .160 .250 .590
+161 Dec. 14, 2010 Methanol 2.81 1.01 .160 .250 .590
+162 Dec. 28, 2010 Methanol 3.79 1.00 .153 .298 .549
+163 Dec. 28, 2010 Methanol 3.07 1.01 .153 .298 .549
+164 Dec. 28, 2010 Methanol 2.59 1.01 .153 .298 .549
+165 Dec. 28, 2010 Methanol 2.69 1.01 .153 .298 .549
+166 Dec. 9, 2010 Heptane 2.19 1.01 .180 .150 .670
+NASA/TP—2015-216046 15
+
+===== PAGE 22 =====
+4.2 Analyzed Data The great majority of the tests were of free-floating droplets
+(no support tether). For these tests, the droplets were rarely
+The digital image data from the FLEX experiments yielded a completely motionless; they had some residual velocity from
+wealth of information regarding the combustion of liquid fuel deployment and ignition and then drifted more as a result of the
+droplets in quiescent and subbuoyant flow (achieved by residual acceleration of the spacecraft (g-jitter). As a result of
+translating the fiber) microgravity environments. The data this, the droplets did drift out of the FOV of one (typically the
+archived in this report include the following: HiBMs) or more of the CIR cameras. For tests where the droplet
+drifted out of the FOV of the camera, the data end abruptly (e.g.,
+(1) Droplet size as a function of time the droplet regression during the FLEX–011 test). This does not
+(2) LLUV flame size as a function of time correspond to the end of the test, just to the end of the data from
+(3) Color camera flame size as a function of time that particular view (note that the flame histories continue
+during the FLEX–011 test). For a minority of tests, the droplet
+The video records also provide qualitative information of the drifted out of the HiBMs FOV as a result of the deployment,
+combustion process including, but not limited to, ignition, and/or g-jitter. However, it then actually drifted back
+into the FOV. In this case, there is a gap in the history of that
+(1) Droplet shape as a function of time view (e.g., the droplet history for the FLEX–013 test). The
+(2) Qualitative sooting propensity as a function of time sharp decline in the droplet size on either side of that gap
+(3) Flame shape and flame dynamics as a function of time corresponds to the time when the droplet (usually) or flame
+(4) Disruptive burning (rarely) was partially in and partially out of the FOV.
+(5) Droplet/fiber interactions For some tests, some of the CIR cameras failed to record data
+(6) Postcombustion vaporization and vapor cloud formation for a portion of the test, and for other tests, none of the test was
+recorded. These show up in the plots in Appendix A as either
+In an effort to document and archive the results from the missing traces or gaps in the data (e.g., the FLEX–024 test, for
+FLEX experiments, all data for (1) to (6) are archived in this which the HiBMs failed to record any data).
+report. Appendix A gives the detailed results of the The detailed data plots in Appendix B show two different
+experiments. The data are also available electronically as text measurements of flame diameter, one from the LLUV camera
+files and compressed video recordings of the HiBMs and color and the other from the color camera. For almost all of the tests,
+camera views. the diameter measured by the LLUV is larger than that
+measured by the color camera. The flame diameters from the
+5.0 Observations and Discussion color camera are typically about three-fourths of those from the
+LLUV camera. This discrepancy is not unusual and is a result
+5.1 General Observations of the LLUV being sensitive to the OH• chemiluminescence,
+which typically peaks outside of the visible flame. For heptane
+The primary objective for this report was to detail and archive tests, where there is significant soot luminosity (which is not
+the results from the FLEX experiments from March 2009 to visible in the LLUV, but dominates the color camera), the
+December 2010. Appendix B presents the detailed results for discrepancy is even larger because the peak of the soot
+the droplet size (droplet diameter squared) and flame sizes luminosity is typically inside the blue flame envelope.
+(from both the LLUV and color camera views) as functions of
+time. These results, along with the raw experiment data, are
+5.2 Fuel Needle Contamination
+available from the NASA Physical Science Informatics data
+repository (psi.nasa.gov, registration required). During the assembly of the MDCA hardware, a conformal
+In each test, there is a clear ambiguity in the droplet size coating was applied to the fuel-dispensing needles. The product
+during ignition (after deployment and before the igniters was applied in two layers, a primer (Dow Corning 1204) and a
+withdraw). This was the result of the broadband glow from the conformal coat (Dow Corning 3140 RTV (MIL–A–46146)
+igniters changing the discrimination between the droplet and coating). Subsequent testing showed that the coating can both
+the background. This was especially present from the FLEX– dissolve and “flake” off in both methanol and heptane. When
+001 test to the FLEX–009 test. For these tests, the shutter speed this occurred, the deployed fuel droplet was clearly not pure but
+(integration time of the array) was 1/30 s (inverse of the framing contained an unknown amount of the conformal coating. Once
+rate). After the FLEX–009 test, the shutter speed decreased to a this problem was discovered, the mitigation was to prepare and
+much smaller value (1/1000 s) with a corresponding increase in fly new uncoated needles. All tests subsequent to these (to be
+the illumination level. This minimized the image distortion reported in the future) will not have contamination. From
+caused by the igniters and the broadband flame radiation (from extensive testing, careful analysis of the experimental data,
+soot for heptane), resulting in more accurate droplet size data. comparison with space-based data from uncontaminated
+NASA/TP—2015-216046 16
+
+===== PAGE 23 =====
+needles, numerical modeling efforts, and ground-based testing, (8) Distorted droplets (e.g., the HiBMs video from the
+we can make the following assertions about the experimental FLEX–088 test) for methanol droplet burning (approximately
+data reported herein: four tests) are probably the result of the contaminant.
+(1) Burning-rate constants were average, and the droplet
+history was minimally influenced by the contaminant. The 6.0 Conclusions
+contaminant was likely present in trace amounts and was a very
+low volatility compound. Because methanol and heptane are Histories of droplet and flame diameters, as well as burning-
+relatively high volatility fuels, the droplet regression history rate constants and extinction diameters, were obtained in Flame
+was dominated by the fuel not by the contaminant. Extinguishment Experiment (FLEX) program experiments
+(2) The flame size and flame history were similarly performed on the International Space Station for methanol and
+minimally influenced by the contaminant. n-heptane droplets with initial diameters between 2 and 5 mm.
+(3) In the few tests where unusual features were observed Burning was done in oxidizing atmospheres at ambient
+in the flame view, such as minor disruptions and visual temperature and at various pressures between 0.70 and
+“sparklers,” these features were probably influenced, and
+3.05 atm, over ranges of dilution of oxygen with nitrogen,
+possibly caused, by the presence of the contaminant.
+oxygen with carbon dioxide, and mixtures thereof. The
+(4) Disruptive extinction of methanol is probably due to the
+experimental methods and data analysis procedures are reported
+presence of the contaminant.
+here, and the results are presented and catalogued. More than
+(5) Disruptive extinction of heptane may be due to the
+100 useful combustion histories were obtained. These extensive
+presence of the contaminant. Subsequent tests with clean
+experimental results are not interpreted here; the intent is
+needles and fuel, however, also exhibited disruptive extinction
+merely to make the data readily available for future scientific
+at small droplet sizes, so no conclusion can be drawn regarding
+disruptive burning for heptane in the tests reported herein. interpretation.
+(6) The diffusive extinction droplet diameters (smaller
+diameters) for methanol (where there is no disruption) were
+minimally influenced by the presence of the contaminant. Glenn Research Center
+(7) Radiative extinction droplet diameters (larger diameters) National Aeronautics and Space Administration
+were not influenced by the presence of the contaminant. Cleveland, Ohio, November 21, 2015
+NASA/TP—2015-216046 17
+
+===== PAGE 24 =====
+
+
+===== PAGE 25 =====
+Appendix A.—Detailed Experimental Results
+This appendix provides a detailed listing of all the results of the test. For cases where the droplet left the HiBMs field of
+the Flame Extinguishment Experiment (FLEX) tests from view (FOV) before extinction, we did estimate (extrapolate
+March 2009 through December 2010. In addition to the data the burning history) to determine the extinction droplet
+printed in this section, electronic data files are available with diameter if there was sufficient burning history and the length
+the detailed results on the digital video disc (DVD) addendum. of time to extrapolate was not that long. If the droplet was
+not in the HiBMS FOV for enough time, the extinction
+droplet diameter is not listed.
+A.1 Summary Data
+Notes—specific observations for a particular test, as explained
+The following list explains the column headings in Table IX: in the notes at the bottom of the table
+Fiber—Yes or No depending on whether a support fiber was in
+FLEX test—number used by the FLEX science team place for the tests
+FLEX identifier—used by the Combustion Integrated Rack P—absolute ambient pressure
+(CIR) engineering team O2—ambient oxygen mole fraction from detailed records of the
+Test date—date the test was performed chamber fill, recirculation, filter, and combustion history
+Test time—time the test was performed (Greenwich Mean CO2—ambient carbon dioxide mole fraction from detailed
+Time, GMT) records of the chamber fill, recirculation, filter, and
+Fuel—fuel used for the test: methanol (CH OH) or heptane combustion history
+3
+(C
+7
+H
+16
+) N2—ambient nitrogen mole fraction from detailed records of the
+Actual D0—initial droplet diameter or droplet diameter at chamber fill, recirculation, filter, and combustion history
+time zero where time zero is the time when the igniters are H2O—ambient water vapor mole fraction from detailed records
+turned ON of the chamber fill, recirculation, filter, and combustion
+Burning rate—average burning rate constant from a linear fit history
+of the droplet diameter squared versus time from shortly after Heptane—ambient heptane (C 7 H 16 ) vapor mole fraction from
+ignition to extinction detailed records of the chamber fill, recirculation, filter, and
+Visible flame extinction diameter—droplet diameter at the combustion history
+time the visible flame extinguished, where “-” indicates Methanol—ambient methanol (CH 3 OH) vapor mole fraction
+flame extinction did not occur either because the droplet from detailed records of the chamber fill, recirculation, filter,
+burned to completion or because a droplet disruption ended and combustion history
+NASA/TP—2015-216046 19
+
+===== PAGE 26 =====
+A.2 Experiment Results
+Table IX summarizes the data.
+TABLE IX.—RESULTS BY TEST NUMBER AND FLEX IDENTIFIER
+FLEX Test Fuel Ambient Initial ambient Droplet Visible Burning Burn Test end
+pressure, composition, initial flame rate, time,
+mmHg mole fraction diameter, extinction mm2/s s
+mm diameter,
+Test Identifier Date Greenwich O2 N2 CO2 He
+mm
+mean time
+FLEX–001 20CAL08 3/5/09 17:22:03 Methanol 757.7 0.21 0.79 0 0 1.69 0.89 0.52 4.3 Disruption
+FLEX–002 20CAL10 3/5/09 19:20:06 Methanol 762 .21 .79 0 0 1.86 .94 .6 5 Extinction
+FLEX–003 20CAL12 3/5/09 21:17:46 Methanol 764.2 .21 .79 0 0 1.61 .92 .58 3.2 Extinction
+FLEX–004 30CAL02 3/31/09 17:16:18 Methanol 760 .21 .79 0 0 2.06 – .6 7.64 Extinction
+FLEX–005 30CAL03 3/31/09 19:00:48 Methanol 760 .21 .79 0 0 1.92 .81 .48 6.34 Extinction
+FLEX–006 40CAL01 3/31/09 20:05:49 Methanol 760 .21 .79 0 0 2.54 1.53 .51 9.6 Extinction
+FLEX–007 20CAL13 4/10/09 13:26:11 Heptane 761.3 .21 .79 0 0 1.87 – .67 5.3 Disruption
+FLEX–008 30CAL06 4/10/09 18:07:15 Heptane 762.4 .21 .79 0 0 2.95 – .79 14.8 Disruption
+FLEX–009 30CAL07 4/10/09 – Heptane 760 .21 .79 0 0 – – – – Disruption
+FLEX–010 256F002 5/22/09 14:53:27 Methanol 2319.7 .21 .09 .7 0 3.86 – .37 13.6 Extinction
+FLEX–011 256R001 5/22/09 15:33:47 Methanol 2318.8 .21 .09 .7 0 3.03 – .4 16.5 Extinction
+FLEX–012 264F003 5/22/09 19:23:35 Heptane 2319.9 .21 .09 .7 0 2.74 – – – Disruption
+FLEX–013 256R002 6/25/09 15:33:05 Methanol 2074.2 .21 .09 .7 0 2.59 – .49 10.8 Extinction
+FLEX–014 256F007 6/29/09 12:26:06 Methanol 2055.6 .21 .09 .7 0 3.7 – – 11.3 Extinction
+FLEX–015 256F008 6/29/09 13:56:06 Methanol 2066.6 .21 .09 .7 0 4.42 – – 23.1 Extinction
+FLEX–016 256F009 6/29/09 15:34:58 Methanol 2072.1 .21 .09 .7 0 1.66 1 .53 3.4 Extinction
+FLEX–017 240R003 7/1/09 12:28:41 Methanol 1545.7 .21 .09 .7 0 2.67 – – 2.4 Disruption
+FLEX–018 248F001 7/1/09 16:28:56 Heptane 1553.8 .21 .09 .7 0 2.74 1.77 .61 8.1 Extinction
+FLEX–019 196F001 8/26/09 19:07:28 Heptane 539.1 .34 .66 0 0 3.39 – .9 4.2 Disruption
+FLEX–020 192F001 10/24/09 14:09:04 Methanol 539.5 .34 .66 0 0 3.4 1.56 .53 17.4 Completion
+FLEX–021 192F002 10/24/09 15:15:24 Methanol 540.6 .34 .66 0 0 3.49 .95 .66 17.8 Disruption
+FLEX–022 192F003 10/24/09 15:39:48 Methanol 540.5 .34 .66 0 0 3.5 – .65 18.2 Disruption
+FLEX–023 196F002 10/24/09 18:29:53 Heptane 541.8 .34 .66 0 0 3.01 – .73 13.1 Disruption
+FLEX–024 196F003 10/24/09 19:44:04 Heptane 542.8 .34 .66 0 0 – – – – Disruption
+FLEX–025 191R001 11/9/09 11:42:23 Methanol 537.3 .3 .7 0 0 2.6 .59 .65 10.3 Completion
+FLEX–026 191F001 11/9/09 11:59:59 Methanol 538.4 .3 .7 0 0 3.63 .4 .62 22.2 Disruption
+FLEX–027 195F001 11/9/09 14:04:11 Heptane 540.7 .3 .7 0 0 3.87 – .64 23.8 Disruption
+FLEX–028 195F002 11/9/09 14:56:05 Heptane 539.7 .3 .7 0 0 3.36 – .64 17.3 Disruption
+FLEX–029 178R001 11/13/09 13:11:23 Methanol 766.9 .3 .7 0 0 2.57 – .74 10.4 Completion
+FLEX–030 178F001 11/13/09 14:03:46 Methanol 769.2 .3 .7 0 0 3.26 1.32 .59 15.6 Extinction
+FLEX–031 182F001 11/13/09 18:33:39 Heptane 770.5 .3 .7 0 0 3.39 – .85 18.4 Disruption
+NASA/TP—2015-216046 20
+
+===== PAGE 27 =====
+FLEX Test Fuel Ambient Initial ambient Droplet Visible Burning Burn Test end
+pressure, composition, initial flame rate, time,
+mmHg mole fraction diameter, extinction mm2/s s
+mm diameter,
+Test Identifier Date Greenwich O2 N2 CO2 He
+mm
+mean time
+FLEX–032 182F002 11/13/09 19:04:33 Heptane 771 .3 .7 0 0 3.07 – .68 14 Completion
+FLEX–033 177R002 11/27/09 10:02:15 Methanol 764.5 .21 .79 0 0 2.62 1.25 .48 11.4 Extinction
+FLEX–034 177F001 11/27/09 11:15:38 Methanol 767.7 .21 .79 0 0 3.89 2 .44 27.3 Extinction
+FLEX–035 181F001 11/27/09 13:01:24 Heptane 768.1 .21 .79 0 0 3.85 3.34 .43 8.9 Extinction
+FLEX–036 190R002 12/15/09 10:39:35 Methanol 539 .2 .8 0 0 2.4 1.67 .45 7.1 Extinction
+FLEX–037 220R001 1/7/10 19:08:46 Methanol 534.3 .34 .66 0 0 3.31 – .72 10.7 Disruption
+FLEX–038 220R002 1/7/10 19:20:38 Methanol 534.4 .34 .66 0 0 3.59 – .71 15.3 Disruption
+FLEX–039 224F001 1/7/10 21:51:19 Heptane 534.9 .34 .66 0 0 2.91 0 .8 9.9 Disruption
+FLEX–040 219R001 1/8/10 5:02:52 Methanol 535.1 .3 .7 0 0 3.77 – .62 19.2 Disruption
+FLEX–041 219F001 1/8/10 4:41:55 Methanol 534.3 .3 .7 0 0 3.35 – .65 14.1 Disruption
+FLEX–042 223F001 1/8/10 1:02:04 Heptane 535 .3 .7 0 0 2.92 – .58 11.3 Disruption
+FLEX–043 223F002 1/8/10 3:16:16 Heptane 534.9 .3 .7 0 0 2.97 0 .78 11.4 Disruption
+FLEX–044 206F001 1/11/10 10:33:22 Methanol 766.8 .3 .7 0 0 3.49 – .63 16.6 Disruption
+FLEX–045 206R001 1/11/10 10:54:25 Methanol 768.3 .3 .7 0 0 2.42 1.01 .73 6.6 Extinction
+FLEX–046 205R001 1/12/10 13:14:25 Methanol 769.5 .21 .79 0 0 2.78 1.08 .54 13.1 Disruption
+FLEX–047 209F001 1/12/10 15:48:17 Heptane 770.1 .21 .79 0 0 3.36 – .5 17.1 Completion
+FLEX–048 205F001 1/12/10 12:14:55 Methanol 768.7 .21 .79 0 0 3.66 – .27 23.5 Disruption
+FLEX–049 209F003 1/19/10 9:09:16 Heptane 764.9 .21 .79 0 0 3.46 2.78 .59 8.6 Extinction
+FLEX–050 209F004 1/19/10 14:08:17 Heptane 770.1 .21 .79 0 0 3.57 2.98 .52 8.4 Extinction
+FLEX–051 209F005 1/19/10 16:38:35 Heptane 771.4 .21 .79 0 0 2.41 0 .65 8.2 Completion
+FLEX–052 210F002 1/11/10 13:46:44 Heptane 771.1 .3 .7 0 0 3.53 0 .7 18.3 Disruption
+FLEX–053 209F002 1/12/10 16:29:37 Heptane 770.2 .21 .79 0 0 – – – 18.5 Disruption
+FLEX–054 190F003 1/29/10 11:27:01 Methanol 541.4 .2 .8 0 0 3.56 – .41 29 Extinction
+FLEX–055 218F001 1/29/10 16:06:50 Methanol 542.6 .2 .8 0 0 3.37 2.39 .46 20.5 Disruption
+FLEX–056 194F001 1/29/10 19:13:22 Heptane 544.1 .2 .79 0 0 3.56 3.04 .44 7.9 Completion
+FLEX–057 303F001 1/29/10 19:50:16 Heptane 544.4 .2 .79 0 0 3.1 2.49 .54 6.8 Extinction
+FLEX–058 176F001 2/4/10 2:32:01 Methanol 773.3 .18 .82 0 0 3.69 – .42 29.1 Extinction
+FLEX–059 176R001 2/4/10 0:26:28 Methanol 769.2 .18 .82 0 0 2.93 1.39 .43 17.7 Extinction
+FLEX–060 204F001 2/4/10 3:26:05 Methanol 773.7 .18 .82 0 0 3.43 – .45 23.2 Extinction
+FLEX–061 204R001 2/4/10 3:52:39 Methanol 774.1 .18 .82 0 0 3.68 2 .41 25.7 Extinction
+FLEX–062 301F001 3/11/10 21:37:48 Heptane 761.8 .18 .82 0 0 3.43 3.17 .39 4.8 Extinction
+FLEX–063 301F002 3/11/10 23:07:51 Heptane 767.6 .18 .81 0 0 2.15 0 .51 9.6 Completion
+FLEX–064 302F001 3/11/10 22:12:39 Heptane 764.6 .18 .81 0 0 2.69 2.07 .6 5.5 Extinction
+FLEX–065 189R001 3/19/10 8:42:53 Methanol 765.9 .15 .85 0 0 3.37 – .4 24.3 Extinction
+NASA/TP—2015-216046 21
+
+===== PAGE 28 =====
+FLEX Test Fuel Ambient Initial ambient Droplet Visible Burning Burn Test end
+pressure, composition, initial flame rate, time,
+mmHg mole fraction diameter, extinction mm2/s s
+mm diameter,
+Test Identifier Date Greenwich O2 N2 CO2 He
+mm
+mean time
+FLEX–066 189F001 3/19/10 9:26:45 Methanol 766.8 .15 .85 0 0 2.52 1.32 .38 12.9 Extinction
+FLEX–067 189F002 3/19/10 10:17:06 Methanol 767.7 .15 .85 0 0 3.97 3.3 .36 14.4 Extinction
+FLEX–068 189R003 3/19/10 12:04:45 Methanol 768.8 .15 .84 0 0 2.38 1.29 .39 10.7 Extinction
+FLEX–069 193R002 3/23/10 10:23:00 Heptane 767.1 .14 .84 0 0 1.1 0 .94 1.3 Completion
+FLEX–070 193F001 3/23/10 7:25:43 Heptane 761 .15 .84 0 0 4.67 4.6 .41 1.6 Extinction
+FLEX–071 189R002 3/19/10 11:19:22 Methanol 768.3 .15 .84 0 0 2.25 – .4 8.4 Extinction
+FLEX–072 193R001 3/23/10 9:06:37 Heptane 765.2 .15 .84 0 0 1.13 – .52 2.5 Completion
+FLEX–073 193F001 3/23/10 7:25:43 Heptane 761 .15 .84 0 0 4.64 4.58 .56 1.5 Extinction
+FLEX–074 221F001 3/23/10 9:44:36 Heptane 765.9 .15 .84 0 0 1.33 – .77 2.3 Completion
+FLEX–075 203R002 3/29/10 21:06:40 Methanol 770.8 .13 .85 0 0 2.54 1.78 .37 9.1 Extinction
+FLEX–076 203F001 3/29/10 19:24:36 Methanol 769.5 .13 .85 0 0 3.21 2.78 .37 8.9 Extinction
+FLEX–077 175R001 3/29/10 18:39:20 Methanol 768.4 .14 .85 0 0 3.33 2.91 .34 8.5 Extinction
+FLEX–078 175F001 3/29/10 17:49:23 Methanol 766 .14 .85 0 0 2.66 1.66 .35 12.9 Extinction
+FLEX–079 179F001 3/30/10 0:40:16 Heptane 768.1 .13 .85 0 0 2.92 2.86 .25 1.5 Extinction
+FLEX–080 207F001 3/30/10 2:29:19 Heptane 770 .13 .85 0 0 – – – 1 Extinction
+FLEX–081 207F002 3/30/10 3:59:28 Heptane 770.2 .13 .85 0 0 – – – 1.5 Extinction
+FLEX–082 304F001 4/19/10 17:19:17 Methanol 764.6 .13 .87 0 0 2.84 2.39 .35 7.5 Extinction
+FLEX–083 304F002 4/19/10 21:18:05 Methanol 772 .12 .87 0 0 – – – 5.45 Extinction
+FLEX–084 304R001 4/19/10 17:51:24 Methanol 767.2 .12 .87 0 0 2.35 1.42 .35 10.8 Extinction
+FLEX–085 304R002 4/19/10 20:12:58 Methanol 771.2 .12 .87 0 0 2.4 1.77 .35 9.3 Extinction
+FLEX–086 305F002 4/19/10 19:16:37 Methanol 770 .12 .87 0 0 3.07 2.56 .35 9 Extinction
+FLEX–087 305F003 4/19/10 20:38:54 Methanol 771.2 .12 .87 0 0 2.64 1.92 .38 9.3 Extinction
+FLEX–088 053R001 5/5/10 22:37:54 Methanol 537.5 .25 .6 .15 0 3.01 – .53 14.8 Disruption
+FLEX–089 053F001 5/5/10 22:19:33 Methanol 537.4 .25 .6 .15 0 3.7 – .51 24 Disruption
+FLEX–090 141R001 5/6/10 0:07:51 Methanol 539.2 .25 .6 .15 0 3.62 – .53 20.1 Disruption
+FLEX–091 141F001 5/5/10 23:10:01 Methanol 538.3 .25 .6 .15 0 3.51 – .51 18 Disruption
+FLEX–092 061F002 6/14/10 22:54:56 Heptane 536.3 .25 .6 .15 0 3.41 – .55 21.7 Disruption
+FLEX–093 149F001 6/15/10 0:32:31 Heptane 537.3 .25 .6 .15 0 2.48 0 .71 8.3 Disruption
+FLEX–094 C08H101 6/15/10 2:10:43 Heptane 533.6 .24 .56 .2 0 3.53 2.76 .51 10.1 Extinction
+FLEX–095 C08H201 6/15/10 3:22:41 Heptane 534.4 .24 .56 .2 0 3.6 3.04 .58 8 Extinction
+FLEX–096 C08H301 6/15/10 4:37:39 Heptane 534.4 .24 .56 .2 0 – – – 5.2 Disruption
+FLEX–097 C08M101 6/16/10 22:43:35 Methanol 534.2 .23 .56 .2 0 4.25 2.6 .45 26.5 Completion
+FLEX–098 C09M201 6/21/10 14:21:26 Methanol 537.1 .23 .52 .25 0 3.64 1.74 .47 22.9 Extinction
+FLEX–099 C09M101 6/21/10 12:57:34 Methanol 535 .23 .52 .25 0 4.28 2.32 .42 33 Extinction
+FLEX–100 C09H101 6/29/10 8:30:46 Heptane 536.7 .23 .52 .25 0 4.14 3.98 .34 6.1 Extinction
+NASA/TP—2015-216046 22
+
+===== PAGE 29 =====
+FLEX Test Fuel Ambient Initial ambient Droplet Visible Burning Burn Test end
+pressure, composition, initial flame rate, time,
+mmHg mole fraction diameter, extinction mm2/s s
+mm diameter,
+Test Identifier Date Greenwich O2 N2 CO2 He
+mm
+mean time
+FLEX–101 C09H201 6/29/10 9:38:10 Heptane 538.7 .23 .52 .25 0 3.88 3.45 .5 6.5 Extinction
+FLEX–102 C10H101 6/29/10 11:21:09 Heptane 534.2 .21 .49 .3 0 3.57 3.43 .33 4.2 Extinction
+FLEX–103 C10H201 6/29/10 11:56:02 Heptane 534.3 .21 .49 .3 0 4 3.88 .35 3.2 Extinction
+FLEX–104 C08M201 6/16/10 23:04:00 Methanol 534.1 .23 .56 .2 0 3.6 1.58 .49 23.2 Extinction
+FLEX–105 C08M301 6/16/10 23:29:19 Methanol 534.6 .23 .56 .2 0 4.17 2 .47 30.7 Disruption
+FLEX–106 C09M401 6/21/10 15:52:51 Methanol 538.3 .23 .52 .25 0 3.08 1.75 .51 14.1 Disruption
+FLEX–107 C08M401 6/16/10 23:51:26 Methanol 535 .23 .56 .2 0 3.18 – .52 15.1 Disruption
+FLEX–108 C09M301 6/21/10 15:35:57 Methanol 538.3 .23 .52 .25 0 3.75 – .47 24.3 Completion
+FLEX–109 C10M102 8/31/10 5:38:01 Methanol 536.5 .21 .49 .3 0 3.56 1.92 .42 – Extinction
+FLEX–110 C10M201 8/31/10 7:16:40 Methanol 537 .21 .49 .3 0 2.83 1.57 .45 13 Extinction
+FLEX–111 C10M303 8/31/10 8:58:24 Methanol 536.9 .21 .49 .3 0 3.37 2.1 .45 16.4 Completion
+FLEX–112 C10M401 9/1/10 15:27:44 Methanol 530.7 .21 .49 .3 0 3.99 2.35 .43 25.2 Completion
+FLEX–113 C11M101 9/1/10 19:17:58 Methanol 534.6 .2 .45 .35 0 4.2 2.85 .49 18.2 Extinction
+FLEX–114 C11M201 9/6/10 19:14:22 Methanol 0 .2 .45 .35 0 3.23 1.68 .42 18.9 Extinction
+FLEX–115 C11M301 9/1/10 20:40:16 Methanol 535.8 .2 .45 .35 0 3.97 2.61 .41 22.9 Extinction
+FLEX–116 C11M401 9/1/10 20:57:41 Methanol 536.3 .2 .45 .35 0 3.16 1.57 .46 16.9 Extinction
+FLEX–117 C11H101 9/6/10 18:14:53 Heptane 531.1 .2 .45 .35 0 3.84 3.77 .25 2.4 Extinction
+FLEX–118 C11H201 9/6/10 19:14:22 Heptane 532.8 .2 .44 .35 0 3.03 2.93 .38 2.5 Extinction
+FLEX–119 C12H103 9/7/10 1:50:01 Heptane 532.6 .18 .42 .4 0 2.6 2.48 .37 1.3 Extinction
+FLEX–120 C12H201 9/7/10 1:08:26 Heptane 532.5 .18 .42 .4 0 2.45 2.39 .38 1.43 Extinction
+FLEX–121 C12M101 9/8/10 19:21:31 Methanol 526.3 .18 .42 .4 0 4.25 3.92 .34 8 Extinction
+FLEX–122 C12M201 9/8/10 21:44:37 Methanol 531.2 .18 .42 .4 0 3.46 2.58 .41 13.9 Extinction
+FLEX–123 C12M301 9/8/10 22:16:51 Methanol 532 .18 .42 .4 0 4.13 3.79 .35 8.7 Extinction
+FLEX–124 C12M401 9/8/10 22:45:54 Methanol 532.4 .18 .42 .4 0 2.87 2.74 .3 2.4 Extinction
+FLEX–125 C13M103 9/13/10 21:07:02 Methanol 537.2 .17 .38 .45 0 3.63 3.37 .35 5.7 Extinction
+FLEX–126 C13M201 9/13/10 18:11:39 Methanol 536.1 .17 .38 .45 0 2.8 1.84 .4 11.7 Extinction
+FLEX–127 C13M301 9/13/10 19:22:49 Methanol 536.7 .17 .38 .45 0 3.22 2.53 .38 11 Extinction
+FLEX–128 C13M401 9/13/10 19:49:24 Methanol 537.3 .17 .38 .45 0 2.91 – .39 11.5 Extinction
+FLEX–129 C13H102 9/17/10 1:32:49 Heptane 536.2 .17 .38 .45 0 3.33 3.34 .33 .55 Extinction
+FLEX–130 C13H201 9/17/10 3:55:59 Heptane 537.2 .17 .38 .45 0 2.91 2.89 .05 .6 Extinction
+FLEX–131 C21H101 10/6/10 11:28:52 Heptane 763.9 .24 .56 .2 0 1.72 .52 .61 4.9 Disruption
+FLEX–132 C21H201 10/6/10 12:59:06 Heptane 765.2 .24 .56 .2 0 2.63 .53 .6 12.4 Disruption
+FLEX–133 C21H301 10/6/10 13:59:59 Heptane 766.7 .24 .56 .2 0 3.25 .55 .56 19 Disruption
+FLEX–134 C21H401 10/6/10 14:57:06 Heptane 767.2 .24 .56 .2 0 3.66 2.88 .56 9.2 Extinction
+FLEX–135 C21H501 10/6/10 16:22:15 Heptane 768.2 .24 .56 .2 0 2.78 0 .59 10.8 Completion
+NASA/TP—2015-216046 23
+
+===== PAGE 30 =====
+FLEX Test Fuel Ambient Initial ambient Droplet Visible Burning Burn Test end
+pressure, composition, initial flame rate, time,
+mmHg mole fraction diameter, extinction mm2/s s
+mm diameter,
+Test Identifier Date Greenwich O2 N2 CO2 He
+mm
+mean time
+FLEX–136 C21H302 10/6/10 17:30:58 Heptane 768.1 .24 .56 .2 0 3.08 – .51 17 Completion
+FLEX–137 C21H303 10/6/10 17:53:35 Heptane 768.2 .24 .56 .2 0 3.13 – .55 17.5 Disruption
+FLEX–138 C21H304 10/6/10 18:08:43 Heptane 768.6 .24 .56 .2 0 – – – – Disruption
+FLEX–139 C21H305 10/6/10 19:09:45 Heptane 768 .24 .56 .2 0 1.75 – .63 5.4 Disruption
+FLEX–140 C14M101 11/4/10 16:52:39 Methanol 533.5 .15 .35 .5 0 3.98 3.95 .2 1.3 Extinction
+FLEX–141 C14M201 11/4/10 18:07:51 Methanol 534.1 .15 .35 .5 0 2.86 2.73 .3 2.3 Extinction
+FLEX–142 C14M301 11/4/10 19:11:39 Methanol 534.5 .15 .35 .5 0 1.86 1.48 .39 3.4 Extinction
+FLEX–143 C14M302 11/4/10 20:19:22 Methanol 534.7 .15 .35 .5 0 2.25 2.06 .36 2.7 Extinction
+FLEX–144 C01M101 11/16/10 9:42:08 Methanol 761.9 .2 .75 .05 0 3.53 1.53 .45 23.8 Extinction
+FLEX–145 C01M201 11/16/10 10:21:24 Methanol 763.5 .2 .75 .05 0 3.33 1.61 .45 20 Extinction
+FLEX–146 C01M301 11/16/10 10:54:23 Methanol 765.5 .2 .75 .05 0 4.35 1.95 .41 39.2 Extinction
+FLEX–147 C13M102 9/13/10 17:35:49 Methanol 535.7 .17 .38 .45 0 3.02 2.49 .4 7.8 Extinction
+FLEX–148 C01H101 11/18/10 8:39:27 Heptane 764.4 .2 .75 .05 0 2.58 1.15 .54 11.8 Disruption
+FLEX–149 C01H201 11/18/10 9:25:38 Heptane 766.2 .2 .75 .05 0 2.21 .82 .53 8.9 Disruption
+FLEX–150 C01H302 11/18/10 10:17:02 Heptane 767.6 .2 .75 .05 0 3.18 2.54 .46 8 Extinction
+FLEX–151 C03M101 12/8/10 18:31:22 Methanol 762.5 .18 .67 .15 0 3.86 – .36 31.3 Completion
+FLEX–152 C03M201 12/8/10 20:10:32 Methanol 765 .18 .67 .15 0 3.33 1.23 .43 23.2 Extinction
+FLEX–153 C03M301 12/8/10 21:08:17 Methanol 765.6 .18 .67 .15 0 2.78 1.19 .42 15.7 Extinction
+FLEX–154 C03H101 12/9/10 16:02:14 Heptane 762.3 .18 .67 .15 0 3.7 3.6 .34 2.2 Extinction
+FLEX–155 C03H201 12/9/10 17:49:08 Heptane 764.9 .18 .67 .15 0 2.73 2.52 .39 2.7 Extinction
+FLEX–157 C03H401 12/9/10 19:12:27 Heptane 765.7 .18 .67 .15 0 1.34 .45 .48 3.2 Completion
+FLEX–158 C05M101 12/14/10 13:41:00 Methanol 762.1 .16 .59 .25 0 4.24 3.96 .3 7.6 Extinction
+FLEX–159 C05M201 12/14/10 14:30:46 Methanol 764.4 .16 .59 .25 0 3.7 3.22 .37 10.1 Extinction
+FLEX–160 C05M301 12/14/10 15:17:59 Methanol 765.5 .16 .59 .25 0 2.71 1.34 .38 14.9 Extinction
+FLEX–161 C05M401 12/14/10 17:51:58 Methanol 767.6 .16 .59 .25 0 2.77 1.52 .38 14.8 Extinction
+FLEX–162 C06M101 12/28/10 11:41:39 Methanol 763.3 .15 .54 .32 0 3.72 3.5 .28 6 Extinction
+FLEX–163 C06M201 12/28/10 12:05:23 Methanol 764.4 .15 .53 .32 0 3.05 2.54 .37 8.5 Extinction
+FLEX–164 C06M301 12/28/10 13:00:43 Methanol 765.9 .15 .53 .32 0 2.59 1.63 .37 11.6 Extinction
+FLEX–165 C06M401 12/28/10 13:36:43 Methanol 766.1 .15 .53 .32 0 2.59 1.79 .42 8.9 Extinction
+FLEX–166 C03H302 12/9/10 18:51:34 Heptane 765.4 .18 .67 .15 0 1.96 1.39 .54 3.9 Extinction
+FLEX–167 C07M101 1/12/11 21:56:45 Methanol 760.8 .14 .5 .36 0 3.22 3.08 .28 3.4 Extinction
+FLEX–168 C07M201 1/12/11 22:11:40 Methanol 761.6 .14 .5 .36 0 2.32 1.84 .37 5.9 Extinction
+FLEX–169 C15M101 1/18/11 12:54:25 Methanol 763.4 .21 .64 .15 0 3.03 1.57 .48 15.6 Disruption
+FLEX–170 C15M201 1/18/11 14:19:29 Methanol 766.1 .21 .64 .15 0 3.05 1.28 .51 16.7 Extinction
+FLEX–171 C15M301 1/18/11 15:58:46 Methanol 766.7 .21 .64 .15 0 3.53 1.59 .46 23.6 Extinction
+NASA/TP—2015-216046 24

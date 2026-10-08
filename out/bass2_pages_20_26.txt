@@ -1,0 +1,207 @@
+
+
+===== PAGE 20 =====
+This work could not have been done without the intense efforts of the BASS operations team (Jay
+Owens, Chuck Bunnell, Tibor Lorik, and Carol Reynolds). We also want to acknowledge the ground
+support teams at Glenn Research Center, Johnson Space Center, and Marshall Space Flight Center
+(especially the Microgravity Science Glovebox team) that supported the BASS–II operations and assisted
+in the anomaly resolutions.
+1.8 References
+1. Olson, S.L., et al.: Burning and Suppression of Solids—II Fire Safety Investigation for the
+Microgravity Science Glovebox. Presented at the 29th Annual Meeting of the American Society for
+Gravitational and Space Research (ASGSR) and the 5th International Symposium on Physical
+Sciences in Space (ISPS), Orlando, FL, 2013.
+https://www.researchgate.net/publication/265684820_Burning_and_Suppression_of_Solids_-
+_II_Fire_Safety_Investigation_for_the_Microgravity_Science_Glovebox Accessed June 17, 2021.
+2. National Aeronautics and Space Administration: Burning and Suppression of Solids—II. Space
+Station Research Explorer on NASA.gov.
+http://www.nasa.gov/mission_pages/station/research/experiments/1262.html Accessed June 16, 2021.
+3. National Aeronautics and Space Administration: Burning and Suppression of Solids. Space Station
+Research Explorer on NASA.gov.
+http://www.nasa.gov/mission_pages/station/research/experiments/735.html Accessed June 17, 2021.
+4. Limero, Thomas; Beck, Steve; and James, John T.: Evaluation of a Portable Carbon Dioxide Monitor
+for Use Aboard the International Space Station. SAE Technical Paper 2000–01–2433, 2000.
+5. Limero, Thomas; Beck, Steve; and James, John T.: Development and Performance of the Oxygen
+Sensor in the CSA–CP Aboard the International Space Station. SAE Technical Paper 2004–01–2337,
+2004.
+6. Limero, Thomas; Beck, Steve W.; and James, John T.: The Portable Monitor for Measuring
+Combustion Products Aboard the International Space Station. SAE Technical Paper 2002–01–2298,
+2002.
+7. Steiner, G., et al.: Assessment of the Major Constituent Analyzer. SAE Technical Paper 2005–01–
+2893, 2005.
+8. Reysa, R., et al.: International Space Station (ISS) Major Constituent Analyzer (MCA) On-Orbit
+Performance. SAE Technical Paper 2004–01–2546, 2004.
+9. Spivey, Reggie A.; Sheredy, William A.; and Flores, Ginger: An Overview of the Microgravity
+Science Glovebox (MSG) Facility, and the Gravity-Dependent Phenomena Research Performed in the
+MSG on the International Space Station (ISS). AIAA 2008–812, 2008.
+10. Dotson, K.T., et al.: Laminar Smoke Points of Coflowing Flames in Microgravity. Fire Saf. J., vol.
+46, 2011, pp. 550–555.
+11. Mass Constituents data from ISS, data available online at
+https://mod2.jsc.nasa.gov/di/di52/constituentmonitor/
+12. National Aeronautics and Space Administration: Spacecraft Maximum Allowable Concentrations for
+Airborne Contaminants. JSC 20584, 1999.
+13. Huggett, Clayton: Estimation of Rate of Heat Release by Means of Oxygen Consumption
+Measurements. Fire Mater., vol. 4, no. 2, 1980, pp. 61–65.
+NASA/TM-20210011385 12
+
+===== PAGE 21 =====
+2.0 Individual Principal Investigator Report: Bhattacharjee
+2.1 Residence Time Driven Flame Spread
+The objective of the Residence Time Driven Flame Spread (RTDFS) experiment of Burning and
+Suppression of Solids—II (BASS–II) was to examine how thermal and species fields can diverge and lead
+to microgravity flame extinguishment by varying fuel thickness.
+Symbols
+t time, s
+V opposed-flow velocity
+g
+2.1.1 Test Matrix
+Samples were 1- and 2-cm-wide thin films of plastic (PMMA (polymethylmethacrylate)).
+Thicknesses were between 0.1 and 0.4 mm. The test matrix is listed in Appendix A.
+2.1.2 Results
+Twenty-two test points were obtained with the BASS–II experiments. The wealth of data has been
+catalogued at http://flame.sdsu.edu.
+2.1.2.1 Extinction Velocity
+Each test is started by establishing a steady flame spread in the presence of a forced flow and then
+reducing the flow velocity in a gradual manner, as shown in Figure 2.1. In the first test, a steady flame
+was established over a 100-μm sample. After the flame propagated across half the sample length at a
+steady spread rate of 2.2 mm/s, the flow was abruptly cut off and the flame was observed to extinguish
+within 2 s, as shown by the radiometer signal drop in Figure 2.2. To pin down the extinction flow
+velocity, a second test was done under the same conditions except the flow velocity was set at 3 cm/s and
+after the flame propagated about half the sample length, the flow was gradually reduced. The flame
+spread rate of the leading edge, as plotted in Figure 2.3, shows that the flame extinguishes at about 30 s
+after ignition. The fan voltage at that time indicates a flow velocity of about 1.1 cm/s. The sequence of
+images in Figure 2.1 shows the pathway to radiative extinction. As the flow speed is gradually reduced
+from about t = 27 s, the flame size starts shrinking and the orange color disappears and the flame becomes
+completely blue, most possibly because of the temperature drop brought about by radiative losses, which
+is enhanced by the increased residence time at low flow velocity. The signal from the radiometer, shown
+in Figure 2.2, is also consistent with a cooling and shrinking flame as the signal starts decreasing from
+right about t = 27 s. After t = 30 s, there is no visible flame and the radiometer data (Figure 2.2) indicate a
+sudden change in slope at that time, possibly because the radiation is emitted mostly by the sample holder
+with the combustion products swept away by the flow.
+When tests are repeated with samples of different thicknesses, the extinction velocities are found to
+be about 1 cm/s for 100, 200, and 300 μm and about 1.5 cm/s for 400 μm. At all these thicknesses, the
+fuel can be considered thermally thin because the maximum spread rate was found to be inversely
+proportional to fuel thickness (Ref. 1), a hallmark of a thermally thin regime. However, it must be
+mentioned that there are significant uncertainties in these values as the calibration at such low velocity
+has high error bars. The boundary layer formed by the fuel and the tunnel walls would influence the flow
+velocity seen by the flame. Also, there is a time lag between when the velocity is reduced and when the
+reduced velocity reaches the flame. However, we assume that the time lag works the same way when the
+NASA/TM-20210011385 13
+
+===== PAGE 22 =====
+Figure 2.1.—Flame images as function of opposed-
+flow velocity Vg during radiative extinction.
+(a) Time (t) = 27 s; Vg = 3.0 cm/s. (b) t = 28 s;
+Vg = 1.5 cm/s. (c) t = 29 s; Vg = 1.1 cm/s.
+(d) t = 30 s; Vg = 1.1 cm/s.
+Figure 2.2.—Radiometer signal for entire duration of test. Discontinuity at time
+(t) = 30 s coincides with disappearance of visible flame.
+NASA/TM-20210011385 14
+
+===== PAGE 23 =====
+Figure 2.3.—Flame spread rate obtained by tracking leading edge and location of
+peak intensity.
+fuel thickness is changed. When a few of these tests were repeated, the results were very similar. It can be
+safely concluded that the extinction velocity does not depend on the fuel thickness. Tests were also
+conducted at a lower O level of about 16 percent for two different thicknesses and the extinction
+2
+velocities were found to be about 2.6 cm/s for 100 μm and about 4 cm/s for 200 μm. It should be
+mentioned that the width of the sample was different, 20 mm for the 100-μm sample and 10 mm for the
+200-μm sample. Even though there is insufficient data at the lower O level, it is clear that the extinction
+2
+velocity significantly increases as the O level is reduced and is independent of the fuel thickness.
+2
+2.1.2.2 Complementary Normal-Gravity Data
+RTDFS acquired further ground data from the San Diego State University (SDSU) flame stabilizer on
+downward flame spread over PMMA (with thickness varying from the thin to the thick regime). The results
+were compared with data obtained from the BASS–II experiments. A manuscript written on this comparison
+was published in the Fire Safety Journal. The manuscript is included in its entirety in Section 2.3.
+SDSU Flame Tunnel—While the flame stabilizer is ideal for experiments with downward spreading
+flame (Ref. 2), it is difficult to create a forced opposed flow, given the diagnostic probes around the setup.
+The flame tower (Ref. 3) helps create an opposing (or concurrent) flow by moving the sample. However,
+given the fixed height (8 m) of the tower, the total time available is inversely proportional to the relative
+flow created; therefore, sufficient time is not available to study flame extinction due to blowoff.
+The SDSU vertical flame tunnel (see Figure 2.4) has a cross section of 10 by 10 cm, similar to the
+combustion tunnel used by Hirano (Ref. 4) at the test section and an opposed flow up to 100 cm/s can be
+created by an array of fans controlled by a microcontroller. Two resistance thermal detectors (RTDs), one
+actively heated and one used as reference, are placed right below the sample holder to monitor the flow
+velocity. The RTDs were calibrated using the flame tower, where the velocity probe can be traversed in
+stationary air at any prescribed velocity.
+One of the major improvements made to the tunnel is the ability to rotate it and set it at any desired
+angle (see Figure 2.5).
+We have collected data for both cellulosic fuels and PMMA sheets.
+NASA/TM-20210011385 15
+
+===== PAGE 24 =====
+Figure 2.4.—San Diego State University
+flame tunnel has same dimensions as
+Hirano tunnel.
+Figure 2.5.—San Diego State University flame tunnel can be
+turned to different angles to alter effect of buoyancy-
+induced flow.
+NASA/TM-20210011385 16
+
+===== PAGE 25 =====
+To establish the boundary layer effect on flame spread rate, experiments were carried out with ashless
+filter paper with the opposing flow velocity as the control variable. While the blowoff extinction velocity
+is assumed to be only a function of chemical kinetics, these experiments clearly establish the boundary
+layer development as an important parameter. The experiments are quite repeatable, and a correlation has
+been obtained for cellulosic fuel.
+2.1.3 Concluding Remarks
+The Residence Time Driven Flame Spread (RTDFS) experiment of Burning and Suppression of
+Solids—II (BASS–II) resulted in the publication of two archival journal articles, several conference
+papers, and two manuscripts submitted to the 36th International Symposium on Combustion. RTDFS
+vindicated the theoretical and computational findings that the critical opposed-flow velocity at which
+radiative extinction occurs in a microgravity environment is independent of fuel thickness, the manuscript
+published in Combustion and Flame is included in its entirety in Section 2.2.
+2.1.4 References
+1. Fernandez-Pello, A.C.; and Hirano, T.: Controlling Mechanisms of Flame Spread. Combust. Sci.
+Technol., vol. 32, nos. 1–4, 1983, pp. 1–31.
+2. Bhattacharjee, Subrata, et al.: A Novel Apparatus for Flame Spread Study. Proc. Combust. Inst., vol.
+34, no. 2, 2013, pp. 2513–2521.
+3. Paolini, Christopher, et al.: Flame Tower: A Novel Apparatus to Study Flame Spread at Low
+Concurrent or Opposed Flow Velocity. Presented at the 8th U.S. National Combustion Meeting,
+paper 070FR–0141, 2013. https://sutherland.che.utah.edu/USCI2013/PAPERS/2H04-070FR-
+0141.pdf Accessed June 18, 2021.
+4. Hirano, T.: Flame Spread. Fire Safety Science. Proceeding, 5th AOSFST, Newcastle, Australia, 2001,
+pp. 40–54.
+2.1.5 Publications Resulting from This Work
+Journal Articles
+• Bhattacharjee, S., et al.: Opposed-Flow Flame Spread: A Comparison of Microgravity and
+Normal Gravity Experiments to Establish the Thermal Regime. Fire Saf. J., vol. 79, 2016, pp.
+111–118. DOI: 10.1016/j.firesaf.2015.11.011 Accessed June 18, 2021.
+• Bhattacharjee, S., et al.: The Critical Flow Velocity for Radiative Extinction in Opposed-Flow
+Flame Spread in a Microgravity Environment: A Comparison of Experimental, Computational,
+and Theoretical Results. Combust. Flame, vol. 163, 2016, pp. 472–477. DOI:
+10.1016/j.combustflame.2015.10.023 Accessed June 18, 2021.
+Conference Articles and Presentations
+• Bhattacharjee, S., et al.: The Critical Flow Velocity for Radiative Extinction in Opposed-Flow
+Flame Spread in a Microgravity Environment: A Comparison of Experimental, Computational,
+and Theoretical Results. Presented at the 9th Mediterranean Combustion Symposium, Rhodes,
+Greece, 2015.
+• Olson, Sandra L., et al.: Results From On-Board CSA–CP and CDM Sensor Readings During the
+Burning and Suppression of Solids—II (BASS–II) Experiment in the Microgravity Science
+Glovebox (MSG). ICES–2015–196, 2015.
+• Bhattacharjee, S.; and Carmignani, L.I.: The Effect of Boundary Layer on Blow-Off Extinction in
+Opposed-Flow Flame Spread: Results of Experiments and Simplified Analysis. ATEM’15:
+NASA/TM-20210011385 17
+
+===== PAGE 26 =====
+International Conference on Advanced Technology in Experimental Mechanics 2015, Toyohashi,
+Japan, 2015.
+• Bhattacharjee, S.; Simsek, A.; and Ivisic, I.: The Role of Fuel Thickness in Opposed-Flow Flame
+Spread in a Quiescent Microgravity Environment. Western States Section (WSS) Technical
+Meeting of the Combustion Institute, Provo, UT, 2015.
+• Grayson, L.; Kievens, K.; and Bhattacharjee, S.: Measurement of Thermal Radiation in Stabilized
+Downward Spreading Flame. Western States Section (WSS) Technical Meeting of the
+Combustion Institute, Provo, UT, 2015.
+• Simsek, A.; and Bhattacharjee, S.: Effect of Boundary Layer on Blow-Off Extinction in Opposed-
+Flow Flame Spread: A Computational Study. Presented at the 9th So Cal Fluids Symposium, San
+Diego, CA, 2015.
+• Laue, M.; Ivisich, I.; and Bhattacharjee, S.: A Comparison of Radiation Signature From
+Spreading Flames in Normal and Zero Gravity Environment. Presented at the 8th Annual Student
+Research Symposium, San Diego, CA, 2015.
+• Bhattacharjee, S., et al.: Opposed-Flow Flame Spread: A Comparison of Microgravity and
+Normal Gravity Experiments Establishing the Thermal Regime. Presented at the 8th International
+Symposium for Physical Sciences in Space, Alexandria, VA, 2015.
+NASA/TM-20210011385 18
