@@ -4,6 +4,8 @@ NASA Space Apps Challenge 2026: "Flame in Freefall: AI-Powered Fire Safety Insig
 
 Author: MD SHAHARIA HASAN 
 
+Live demo: https://flame-in-freefall-xxjhcu8eymmkafnbgtgjuq.streamlit.app/
+Code: https://github.com/shaharia179/flame-in-freefall
 ## What this project does
 A small, honest machine-learning prototype built on real NASA FLEX
 (Flame Extinguishment Experiment) data from the International Space Station.
