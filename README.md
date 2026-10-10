@@ -3,7 +3,7 @@
 AI-powered fire-safety insights from real NASA microgravity combustion data.
 Submission for the NASA Space Apps Challenge: *"Flame in Freefall: AI-Powered Fire Safety Insights from Microgravity Combustion Data"*.
 
-Author: MD SHAHARIA HASAN
+
 - Live app: https://flame-in-freefall-xxjhcu8eymmkafnbgtgjuq.streamlit.app/
 - Code: https://github.com/shaharia179/flame-in-freefall
 
