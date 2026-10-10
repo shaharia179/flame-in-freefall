@@ -147,6 +147,9 @@ The NASA report PDF (NASA/TP-2015-216046) is not included in this repository. To
 | `models/` | Trained models |
 | `out/` | SHAP figures |
 
+## AI tool usage
+
+Claude (by Anthropic) was used as a coding and planning assistant (code writing, debugging, explaining results, drafting this README). The data work, decisions about what to include or exclude, and checking of the results were done by the team. All numbers in this project come from the real NASA table and the models run on it.
 
 ## Credit
 
